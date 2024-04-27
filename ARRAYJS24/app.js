@@ -42,3 +42,23 @@
 // // Creating an empty array using Array constructor
 // const emptyArray = new Array();
 // console.log(emptyArray);
+
+// Accessing Array Elements
+// In JavaScript, we can access array elements using square brackets notation '[]'. Array indexing starts from 0, where the first element of the array has an index of 0, the second element has an index of 1, and so on.
+
+
+
+// const numbers = [1,2,3,4,5];
+// console.log(numbers[0]);
+// console.log(numbers[2]);
+// console.log(numbers[numbers.length-1]);
+
+
+// const index =1;
+// console.log(numbers[1]);
+
+
+
+
+
+

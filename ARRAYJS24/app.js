@@ -57,6 +57,31 @@
 // const index =1;
 // console.log(numbers[1]);
 
+// In JavaScript, we can insert elements into an array using various methods. In array we can insert an item/element at various places of an array :
+
+// Insertion at End
+// Insertion at Start
+// Insertion at Random Index
+// Let's understand each method one by one
+
+// Insertion at End
+// We can insert an item/element at the end of an array using the push method.
+
+// The push method adds one or more elements to the end of an array and returns the new length of the array.
+
+// const fruits = ["apple", "banana", "orange"];
+// fruits.push("Mango");
+// fruits.push("PineApple");
+// console.log(fruits);
+
+
+
+
+
+
+
+
+
 
 
 

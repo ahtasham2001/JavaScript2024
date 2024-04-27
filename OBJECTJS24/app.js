@@ -22,17 +22,39 @@
 // Let's add some properties such as firstName, lastName, age, hobbies and a message function to the person object.
 
 
-let person = {
-  firstName : "Ahtasham",
-  lastName : "Naeem",
-  age : 22,
-  hobbies : ["reading","writing", "Learn new Skill"],
-  message : function(){
-    console.log("ThankYou" )
-  }
-};
-console.log(person);
-console.log(person.firstName);
-console.log(person.message);
+// let person = {
+//   firstName : "Ahtasham",
+//   lastName : "Naeem",
+//   age : 22,
+//   hobbies : ["reading","writing", "Learn new Skill"],
+//   message : function(){
+//     console.log("ThankYou" )
+//   }
+// };
+// console.log(person);
+// console.log(person.firstName);
+// console.log(person.message);
+
+// Using 'new' keyword
+// We can use the new keyword along with the Object constructor to create an empty object and then add properties and methods to it.
+
+// Let's create an empty person object using new keyword.
+
+// let person = new Object();
+// console.log(person);
+
+
+// Let's add some properties such as firstName, lastName, age to the empty object created using new keyword.
+
+// let person = new Object();
+// person.firstName = "Ahtasham";
+// person.lastName = "Naeem";
+// person.age = 22;
+// person.hobbies = ["reading", "writing", "hardworking"];
+// console.log(person);
+// console.log(typeof(person));
+
+
+
 
 

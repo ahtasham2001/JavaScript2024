@@ -14,3 +14,25 @@
 // This is the most common, easiest and straightforward way to create an object. We can define the object and its properties using the object literals.
 
 // Object literal is a list of key-value pairs enclosed in curly braces '{}'
+
+
+// let person = {};
+// console.log(typeof(person));
+
+// Let's add some properties such as firstName, lastName, age, hobbies and a message function to the person object.
+
+
+let person = {
+  firstName : "Ahtasham",
+  lastName : "Naeem",
+  age : 22,
+  hobbies : ["reading","writing", "Learn new Skill"],
+  message : function(){
+    console.log("ThankYou" )
+  }
+};
+console.log(person);
+console.log(person.firstName);
+console.log(person.message);
+
+

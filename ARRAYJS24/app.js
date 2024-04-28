@@ -87,6 +87,82 @@
 // fruits.unshift("kiwi");
 // console.log(fruits);
 
+// Insertion at Random Index
+// To add an element/item at a random index inside an array we use the splice method.
+
+// The splice method adds or removes elements from an array at a specified index.
+
+// In the above syntax only thing we need to keep in mind is that
+
+// If we only want to add new items then keep the 'deleteCount = 0',
+// startIndex : The index at which to start changing the array.
+// If startIndex is negative, it will begin that many elements from the end of the array. - If startIndex is greater than the length of the array, it will start at the length of the array.
+// If we don't wan't to add any item we can just ignore the item parameters.
+
+
+
+// const fruits = ["apple","orange",];
+// fruits.splice(1,0,"banana");
+// fruits.splice(3,0,"pineapple");
+// fruits.splice(4,0,"Tomatoes");
+// console.log(fruits);
+
+
+// Filter Method on Arrays
+// In JavaScript, the filter() method is used to create a new array with all elements that satisfy the specific condition in the provided callback function. It doesn't change the original array.
+
+// filter() method returns a new array with elements that satisfy the condition specified in the callback function.
+// Filter Method on Array of Numbers
+
+// const numbers = [-2,0,4,-49,53];
+// const positiveNumbers = numbers.filter(function(number) {
+//     return number >0;
+// })
+// console.log(positiveNumbers);
+
+
+// Filter Method on Array of Objects
+
+// const products = [
+//     {
+//         id: 1,
+//         name: "Product A",
+//         price: 10 
+//     },
+//     {
+//         id: 2,
+//         name: "Product B",
+//         price: 20 
+//     },
+//     {
+//         id: 3,
+//         name: "Product C",
+//         price: 30
+//     },
+// ];
+
+// const expensiveProducts = products.filter((product) => product.price > 15);
+
+// console.log(expensiveProducts);
+
+
+
+// Reduce Method on Arrays
+// In JavaScript, the reduce() method is used to reduce an array to a single value. It executes a provided callback function once for each element of the array, resulting in a single output value.
+// callback: A function that executes on each element of the array, taking following arguments:
+// accumulator: The accumulated value resulting from the reduction.
+// currentValue: The current element being processed in the array.
+// initialValue (optional): An initial value for the accumulator. If not provided, the first element of the array will be used as the initial value, and iteration starts from the second element.
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
+
+
 
 
 

@@ -76,6 +76,20 @@
 
 
 
+// Insertion at Start
+// We can insert an item/element at the starting of an array using the unshift method.
+
+// The unshift method Adds one or more elements to the beginning of an array and returns the new length of the array.
+
+
+// const fruits = ["orange","banana","graps"]
+// fruits.unshift("apple");
+// fruits.unshift("kiwi");
+// console.log(fruits);
+
+
+
+
 
 
 

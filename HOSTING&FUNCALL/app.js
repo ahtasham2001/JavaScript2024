@@ -1,4 +1,4 @@
-
+// function Hoisting
 
 // sayHello();
 // function sayHello(){
@@ -6,7 +6,7 @@
 // }
 
 
-sayHello();
+// sayHello();
 
 // let sayHello = function(){
 //     console.log("Ahtasham");
@@ -20,3 +20,10 @@ sayHello();
 // let sayHello = function(){
 //     console.log("Ahtasham");
 // }
+
+// variable  Hoisting
+
+// console.log(fullName);
+// // var fullName = "Ahtasham Naeem";
+// // let fullName = "Ahtasham Naeem";
+// const fullName = "Ahtasham Naeem";
